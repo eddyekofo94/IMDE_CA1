@@ -1,0 +1,111 @@
+{
+    "dataset": {
+        "dimension": {
+            "Sex": {
+                "label": "Sex",
+                "category": {
+                    "index": {
+                        "-": 0,
+                        "1": 1,
+                        "2": 2
+                    },
+                    "label": {
+                        "-": "Both sexes",
+                        "1": "Male",
+                        "2": "Female"
+                    }
+                }
+            },
+            "Type of Second Chance Education": {
+                "label": "Type of Second Chance Education",
+                "category": {
+                    "index": {
+                        "1": 0,
+                        "11": 1,
+                        "12": 2,
+                        "2": 3,
+                        "21": 4,
+                        "22": 5,
+                        "3": 6,
+                        "31": 7,
+                        "32": 8
+                    },
+                    "label": {
+                        "1": "All VTOS",
+                        "11": "Core VTOS",
+                        "12": "Dispersed VTOS",
+                        "2": "All youthreach",
+                        "21": "Foundation level youthreach",
+                        "22": "Progression level youthreach",
+                        "3": "All senior traveller training (STT)",
+                        "31": "Foundation level senior traveller training",
+                        "32": "Progression level senior traveller training"
+                    }
+                }
+            },
+            "Year": {
+                "label": "Year",
+                "category": {
+                    "index": {
+                        "2004": 0,
+                        "2005": 1,
+                        "2006": 2,
+                        "2007": 3,
+                        "2008": 4,
+                        "2009": 5,
+                        "2010": 6,
+                        "2011": 7,
+                        "2012": 8,
+                        "2013": 9,
+                        "2014": 10,
+                        "2015": 11,
+                        "2016": 12,
+                        "2017": 13
+                    },
+                    "label": {
+                        "2004": "2004",
+                        "2005": "2005",
+                        "2006": "2006",
+                        "2007": "2007",
+                        "2008": "2008",
+                        "2009": "2009",
+                        "2010": "2010",
+                        "2011": "2011",
+                        "2012": "2012",
+                        "2013": "2013",
+                        "2014": "2014",
+                        "2015": "2015",
+                        "2016": "2016",
+                        "2017": "2017"
+                    }
+                }
+            },
+            "Statistic": {
+                "label": "Statistic",
+                "category": {
+                    "index": {
+                        "EDA81C1": 0
+                    },
+                    "label": {
+                        "EDA81C1": "Second Chance Education (Number)"
+                    },
+                    "unit": {
+                        "EDA81C1": {
+                            "base": "Number"
+                        }
+                    }
+                }
+            },
+            "id": ["Sex", "Type of Second Chance Education", "Year", "Statistic"],
+            "size": [3, 9, 14, 1],
+            "role": {
+                "time": ["Year"],
+                "metric": ["Statistic"]
+            }
+        },
+        "label": "Second Chance Education by  Sex, Type of Second Chance Education and Year",
+        "source": "Department of Education and Skills",
+        "updated": "2017-10-17T16:31:32Z",
+        "value": [5639, 5538, 5384, 5377, 5403, 5568, 5775, 5702, 5650, 5637, 5649, 5757, 5473, 5657, 3828, 3803, 3765, 3706, 3746, 3841, 4338, 4360, 4345, 4331, 4258, 4511, 4140, 4127, 1811, 1735, 1619, 1671, 1657, 1727, 1437, 1342, 1305, 1306, 1391, 1232, 1333, 1530, 2653, 2752, 2739, 2863, 3133, 3441, 3452, 3367, 3321, 3313, 3217, 3292, 3266, 3225, 1603, 1497, 1440, 1339, 1528, 1656, 1589, null, null, null, null, null, null, null, 1050, 1255, 1299, 1524, 1605, 1785, 1863, null, null, null, null, null, null, null, 981, 980, 1098, 1054, 1089, 1070, 1020, 716, 466, null, null, null, null, null, 587, 613, 714, 684, 476, 533, 540, null, null, null, null, null, null, null, 394, 367, 384, 370, 613, 537, 480, null, null, null, null, null, null, null, 1758, 1728, 1732, 1741, 1787, 2031, 2496, 2715, 2731, 2768, 2617, 2600, 2296, 2260, 1186, 1126, 1176, 1201, 1189, 1354, 1900, 2094, 2132, 2177, 1991, 2055, 1727, 1635, 572, 602, 556, 540, 598, 677, 596, 621, 599, 591, 626, 536, 569, 625, 1299, 1342, 1321, 1426, 1556, 1865, 1952, 1928, 1917, 1961, 1881, 2007, 1911, 1847, 871, 852, 817, 783, 863, 968, 940, null, null, null, null, null, null, null, 428, 490, 504, 643, 693, 897, 1012, null, null, null, null, null, null, null, 173, 179, 186, 153, 161, 150, 135, 119, 88, null, null, null, null, null, 101, 133, 137, 83, 95, 88, 87, null, null, null, null, null, null, null, 72, 46, 49, 70, 66, 62, 48, null, null, null, null, null, null, null, 3881, 3810, 3652, 3636, 3616, 3537, 3279, 2987, 2919, 2869, 3032, 3157, 3177, 3397, 2642, 2677, 2589, 2505, 2557, 2487, 2438, 2266, 2213, 2154, 2267, 2456, 2413, 2492, 1239, 1133, 1063, 1131, 1059, 1050, 841, 721, 706, 715, 765, 696, 764, 905, 1354, 1410, 1418, 1437, 1577, 1576, 1500, 1439, 1404, 1352, 1336, 1285, 1355, 1378, 732, 645, 623, 556, 665, 688, 649, null, null, null, null, null, null, null, 622, 765, 795, 881, 912, 888, 851, null, null, null, null, null, null, null, 808, 801, 912, 901, 928, 920, 885, 597, 378, null, null, null, null, null, 486, 480, 577, 601, 381, 445, 453, null, null, null, null, null, null, null, 322, 321, 335, 300, 547, 475, 432, null, null, null, null, null, null, null]
+    }
+}
